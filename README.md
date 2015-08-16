@@ -61,7 +61,8 @@ Create an axis-wise operation. Options are:
 **Returns**: An axis-wise operator as specified below
 
 ### `awiseOperator( A [, options] )`
-Perform an axis-wise operation on array `A`.
+Performs an axis-wise operation on array `A`.
+- `A`: the ndarray to be reduced.
 - `options`:
   - `axis`: a single axis number over which to reduce, starting at zero.
   - `axes`: a list of axes over which to reduce. Only one of `axis` and `axes` may be specified. If neither is specified, will reduce over the last dimension.
