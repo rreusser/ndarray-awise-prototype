@@ -6,7 +6,7 @@ Perform axis-wise operations on an ndarary
 
 ## Introduction
 
-This library implements map-reduce operations along a dimension or dimensions of an ndarray. Its input is a single ndarray, and its output is a different ndarray reduced over the specified dimensions.
+This library implements map-reduce operations along a dimension or dimensions of an ndarray. Its input is a single ndarray, and its output is a different ndarray containing the reduction over the specified dimensions.
 
 If you're familiar with cwise, think of it like this: it uses cwise to strap a map-reduce operation onto some combination of dimensions. Its shortcoming is that it should generate optimized code itself instead of relying on cwise to accomplish this as an afterthought. I'm also not 100% sure where this fits on the spectrum between component-wise and tensor operations so thoughts/ideas/extensions/criticism are welcome before this gets properly finalized.
 
