@@ -54,8 +54,8 @@ $ npm install ndarray-awise-prototype
 ### `require('awise')( options )`
 Create an axis-wise operation. Options are:
 - `options`:
-  - `reduce`: A function that implements the reduce operator. Takes as its arguments the accumulated value and additional argument; responsible for returning the updated value. For example, the reduce operator for computing the mean would be `function(sum, x) { return sum + x }`.
   - `initialize` (optional): a function that gets passed to [ndarray-fill](https://github.com/scijs/ndarray-fill) to initialize the reduce operation. As such, receives the current indices as its arguments. If no initialize function is passed, result is initialized to zero.
+  - `reduce`: A function that implements the reduce operator. Takes as its arguments the accumulated value and additional argument; responsible for returning the updated value. For example, the reduce operator for computing the mean would be `function(sum, x) { return sum + x }`.
   - `post` (optional): a function to post-process the reduced values. It receives the ndarray representing the reduced result as its first argument and the shape of the reduced dimensions as its second argument. So for example, for a 2x3x4 array with an axis-wise operation on  `axes: [0,2]`, the first argument will be an ndaray with shape `[3]`, and the second argument will be the array `[2,4]`.
 
 **Returns**: An axis-wise operator as specified below
