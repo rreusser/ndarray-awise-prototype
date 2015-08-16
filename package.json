@@ -1,6 +1,6 @@
 {
   "name": "ndarray-awise-prototype",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Perform axis-wise operations on an ndarary",
   "main": "lib/index.js",
   "scripts": {
