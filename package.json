@@ -24,9 +24,7 @@
     "chai": "^3.0.0",
     "iota-array": "^1.0.0",
     "mocha": "^2.2.5",
-    "ndarray-fill": "^1.0.0",
     "ndarray-ops": "^1.2.2",
-    "ndarray-scratch": "^1.2.0",
     "ndarray-show": "^2.0.0",
     "ndarray-tests": "^1.3.0"
   },
