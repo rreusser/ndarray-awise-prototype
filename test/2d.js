@@ -10,7 +10,7 @@ var assert = require('chai').assert
 describe( "2d mean", function() {
 
   var mean = awise({
-    reduce: ops.sum,
+    reduce: function(s, x) { return s+x; },
     post: function(a,n) {
       ops.mulseq(a, 1/n.reduce(function(p,m){return p*m},1) )
     }
