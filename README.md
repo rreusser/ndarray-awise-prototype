@@ -1,6 +1,6 @@
 # ndarray-awise-prototype
 
-[![Build Status](https://travis-ci.org/rreusser/ndarray-awise-prototype.svg)](https://travis-ci.org/rreusser/ndarray-awise-prototype) [![npm version](https://badge.fury.io/js/ndarray-awise-prototype.svg)](http://badge.fury.io/js/ndarray-awise-prototype) [![Dependency Status](https://david-dm.org/rreusser/ndarray-awise-prototype.svg)](https://david-dm.org/rreusser/ndarray-awise-prototype)
+[![Build Status](https://travis-ci.org/rreusser/ndarray-awise-prototype.svg)](https://travis-ci.org/rreusser/ndarray-awise-prototype) [![Dependency Status](https://david-dm.org/rreusser/ndarray-awise-prototype.svg)](https://david-dm.org/rreusser/ndarray-awise-prototype)
 
 Perform axis-wise operations on an ndarary
 
@@ -44,10 +44,7 @@ var prod = awise({
 
 ## Install
 
-```sh
-$ npm install ndarray-awise-prototype
-```
-
+Not published to npm. Just an experiment. You'll have to install from github directly.
 
 ## API
 
