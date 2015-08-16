@@ -1,6 +1,6 @@
 # ndarray-awise-prototype
 
-[![Build Status](https://travis-ci.org/scijs/ndarray-awise-prototype.svg)](https://travis-ci.org/scijs/ndarray-awise-prototype) [![npm version](https://badge.fury.io/js/ndarray-awise-prototype.svg)](http://badge.fury.io/js/ndarray-awise-prototype) [![Dependency Status](https://david-dm.org/scijs/ndarray-awise-prototype.svg)](https://david-dm.org/scijs/ndarray-awise-prototype)
+[![Build Status](https://travis-ci.org/rreusser/ndarray-awise-prototype.svg)](https://travis-ci.org/rreusser/ndarray-awise-prototype) [![npm version](https://badge.fury.io/js/ndarray-awise-prototype.svg)](http://badge.fury.io/js/ndarray-awise-prototype) [![Dependency Status](https://david-dm.org/rreusser/ndarray-awise-prototype.svg)](https://david-dm.org/rreusser/ndarray-awise-prototype)
 
 Perform axis-wise operations on an ndarary
 
