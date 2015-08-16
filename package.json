@@ -1,0 +1,38 @@
+{
+  "name": "ndarray-awise-prototype",
+  "version": "1.0.0",
+  "description": "Perform axis-wise operations on an ndarary",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rreusser/ndarray-awise-prototype.git"
+  },
+  "keywords": [
+    "scijs",
+    "ndarray",
+    "cwise",
+    "map-reduce",
+    "mean",
+    "average"
+  ],
+  "author": "Ricky Reusser",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "iota-array": "^1.0.0",
+    "mocha": "^2.2.5",
+    "ndarray-fill": "^1.0.0",
+    "ndarray-ops": "^1.2.2",
+    "ndarray-scratch": "^1.2.0",
+    "ndarray-show": "^2.0.0",
+    "ndarray-tests": "^1.3.0"
+  },
+  "dependencies": {
+    "cwise": "^1.0.8",
+    "ndarray": "^1.0.18",
+    "ndarray-fill": "^1.0.1"
+  }
+}
