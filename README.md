@@ -20,22 +20,23 @@ var awise = require('ndarray-awise-prototype'),
 
 var mean = awise({
   reduce: function(s, x) { return s+x; },
-  post:   function(a, n) {
-    ops.mulseq(a, 1/n.reduce(function(p,m){return p*m},1) )
+  post:   function(a, shape) {
+    // Divide by the product of the shape of the reduced dimensions:
+    ops.mulseq(a, 1/shape.reduce(function(n,l){return n*l},1) )
   }
 })
 
 mean(A)                // mean along the last dimension of an ndarray
 mean(A, {axis: 0})     // mean along dimension 0 of an ndarray
-mean(A, {axes: [1,2]}) // mean along dimensions 1 and 2 (combined) of an ndarray
+mean(A, {axes: [1,2]}) // mean along dimensions 1 and 2 of an ndarray
 ```
 
 ### Product
 
-```
+```javascript
 var prod = awise({
   initialize: function() { return 1; },
-  reduce: function(s, x) { return s*x; },
+  reduce: function(p, x) { return p*x; },
 })
 
 ```
