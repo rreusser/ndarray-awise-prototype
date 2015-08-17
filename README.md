@@ -65,8 +65,8 @@ Performs an axis-wise operation on array `A`.
 - `options`:
   - `axis`: a single axis number over which to reduce, starting at zero.
   - `axes`: a list of axes over which to reduce. Only one of `axis` and `axes` may be specified. If neither is specified, will reduce over the last dimension.
-  - `output` (optional): An ndarray that receives the output. Useful for avoiding unnecessary memory allocation and garbage collection. If not specified, uses `ndarray-scratch` to allocate an array (Note: I think this should be changed).
-**Returns**: If ndarray is reduced over all dimensions a the result has dimension zero, the bare result is returned (i.e. a scalar). For all other cases, the reduced ndarray containing the result is returned.
+  - `output` (optional): An ndarray that receives the output. Useful for avoiding unnecessary memory allocation and garbage collection. If not specified, uses an ndarray of the same `dtype` is allocated.
+**Returns**: If ndarray is reduced over all dimensions (i.e. the result has dimension zero), the bare result is returned (i.e. a scalar). For all other cases, the reduced ndarray containing the result is returned.
 
 
 ## Credits
