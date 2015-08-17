@@ -4,6 +4,8 @@
 
 Perform axis-wise operations on an ndarary
 
+**Warning:** In hindsight, while this library does provide some syntactic sugar for defining operations, the methodology and syntax are questionable. See: https://github.com/rreusser/ndarray-awise-prototype/issues/1 and https://github.com/scijs/cwise/issues/9. It works and I'll leave the code here, but determining the best approach remains a work in progress.
+
 ## Introduction
 
 This library implements map-reduce operations along a dimension or dimensions of an ndarray. Its input is a single ndarray, and its output is a different ndarray containing the reduction over the specified dimensions.
