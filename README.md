@@ -4,7 +4,7 @@
 
 Perform axis-wise operations on an ndarary
 
-**Warning:** In hindsight, while this library does provide some syntactic sugar for defining operations, the methodology and syntax are questionable. See: https://github.com/rreusser/ndarray-awise-prototype/issues/1 and https://github.com/scijs/cwise/issues/9. It works and I'll leave the code here, but determining the best approach remains a work in progress.
+**Warning:** In hindsight, while this library does provide some syntactic sugar for defining operations, the methodology and syntax could definitely be improved. See: https://github.com/rreusser/ndarray-awise-prototype/issues/1 and https://github.com/scijs/cwise/issues/9. It works and I'll leave the code here, but determining the best approach remains a work in progress. I'd consider it production-ready for what it does and if you're not performance-limited, but a more sophisticated approach would likely perform better.
 
 ## Introduction
 
@@ -43,10 +43,6 @@ var prod = awise({
 
 ```
 
-
-## Install
-
-Not published to npm. Just an experiment. You'll have to install from github directly.
 
 ## API
 
