@@ -43,6 +43,14 @@ var prod = awise({
 
 ```
 
+## Install
+
+Went back and forth, but eventually published to npm.
+
+```
+$ npm install ndarray-awise-prototype
+```
+
 
 ## API
 
